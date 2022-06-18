@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(188, 241, 177);
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid;
+}
+
+.o{
+    position: relative;
+}
+
+.x{
+ position: relative;
+}
+
+.o::after {
+    content: "🐢";
+    font-size: 60px;
+    line-height: 100px;
+    position: absolute;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.x::after {
+    content: "🐸";
+    font-size: 50px;
+    line-height: 100px;
+    position: absolute;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
